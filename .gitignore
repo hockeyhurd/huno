@@ -6,6 +6,10 @@
 *.lo
 *.o
 *.obj
+*.swp
+*.vcxproj
+*.vcxproj.*
+cppcheck.xml
 
 # Precompiled Headers
 *.gch
@@ -30,3 +34,15 @@
 *.exe
 *.out
 *.app
+
+# Folders to ignore
+build
+doc
+x86
+x64
+Debug
+Release
+.*
+
+compile_commands.json
+
